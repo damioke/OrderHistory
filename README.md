@@ -67,7 +67,7 @@ aws_secret_access_key = YOUR_SECRET_KEY
 -	Create ~/.aws/config:
 -	[default]
 region=us-east-1
--	wget http://media.sundog-soft.com/AWSBigData/Consumer.py
+-	Download the Consumer.py
 -	Chmod a+x Consumer.py
 -	./Consumer.py
 -	In another window: sudo ./LogGenerator.py 10
