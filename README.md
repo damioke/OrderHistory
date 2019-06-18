@@ -6,7 +6,7 @@ E-Commerce Order History App (without Lambda)
 Set up fake order log generator:
 -	Set up EC2 T2/micro instance with latest Amazon Linux AMI
 -	sudo yum install –y aws-kinesis-agent
--	wget http://media.sundog-soft.com/AWSBigData/LogGenerator.zip
+-	Download LogGenerator.zip
 -	unzip LogGenerator.zip
 -	chmod a+x LogGenerator.py
 -	sudo mkdir /var/log/cadabra
